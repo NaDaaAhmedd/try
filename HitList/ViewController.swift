@@ -18,6 +18,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         navigationController?.navigationBar.prefersLargeTitles = true
         
+        print("A Change!")
+        
         title = "The List"
         tableView.register(UITableViewCell.self,
                              forCellReuseIdentifier: "Cell")
